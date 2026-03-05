@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-deep:    #0b0c10;
+  --bg-surface: #111318;
+  --bg-raised:  #1a1c23;
+  --bg-hover:   #22242d;
+  --border:     #252830;
+  --border-mid: #2e3140;
+  --text-hi:    #eaeaf2;
+  --text-lo:    #5c5e70;
+  --text-mid:   #9899a8;
+  --lime:       #c8e234;
+  --lime-dim:   #a3ba1e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg-deep);
+  color: var(--text-hi);
+}
+
+.konvajs-content {
+  cursor: crosshair;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-surface); }
+::-webkit-scrollbar-thumb { background: var(--border-mid); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: var(--lime); }
+
+/* Range input accent */
+input[type='range'] { accent-color: var(--lime); }
+
+/* Focus ring override */
+*:focus-visible { outline: 1.5px solid var(--lime); outline-offset: 2px; }
