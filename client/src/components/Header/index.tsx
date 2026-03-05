@@ -24,7 +24,7 @@ export default function Header({ stageRef }: Props) {
           <rect x="11" y="11" width="8" height="8" fill="var(--lime)" />
         </svg>
         <span style={{ fontFamily: "'Space Mono', monospace", fontSize: 13, fontWeight: 700, color: 'var(--text-hi)', letterSpacing: '0.08em' }}>
-          CANVAS
+          LiveBoard
         </span>
       </div>
 

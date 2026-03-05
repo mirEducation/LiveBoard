@@ -39,7 +39,7 @@ export default function NamePrompt({ onSubmit }: Props) {
             <rect x="1" y="11" width="8" height="8" fill="var(--lime)" opacity="0.5" />
             <rect x="11" y="11" width="8" height="8" fill="var(--lime)" />
           </svg>
-          <span style={{ fontFamily: "'Space Mono', monospace", fontSize: 13, fontWeight: 700, color: 'var(--lime)', letterSpacing: '0.1em' }}>CANVAS</span>
+          <span style={{ fontFamily: "'Space Mono', monospace", fontSize: 13, fontWeight: 700, color: 'var(--lime)', letterSpacing: '0.1em' }}>LiveBoard</span>
         </div>
 
         <h2 style={{ fontFamily: "'Space Mono', monospace", fontSize: 22, fontWeight: 700, color: 'var(--text-hi)', marginBottom: 8, letterSpacing: '-0.02em' }}>
